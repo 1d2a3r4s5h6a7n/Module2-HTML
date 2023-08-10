@@ -1,0 +1,8 @@
+Define the terms:
+1. Website: It is Collection of Webpages is known as Website.
+2. Webpage: It is Collection of Informations is known as Webpages.
+3. Web browser: A software application used to access information on the World Wide Web is called a Web Browser.
+4. Web server: A computer that runs websites is known as Web Server.
+5. HTML: HTML(Hyper Text Markup Language) is the code that is used to structure a web page and its content.
+6.CSS: CSS(Cascading Style Sheet) is a style sheet language used for describing the look and formatting of a 
+       document written in a markup language.

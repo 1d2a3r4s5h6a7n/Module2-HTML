@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGISTRATION FROM | CSS</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .re1{
+        display: flex;
+        width: 100%;
+        background-color:lightblue;
+        justify-content: center;
+        color: red;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .main{
+        background-color: aqua;
+    
+    }
+    .main1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        color: blue;
+    }
+    h2{
+        color: red;
+        padding-left: 10px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+         margin-left: 10px;  
+     }
+    .main2{
+        width: 100%;
+        display: flex;
+        margin-left: 20%;
+        color: blue;
+        height: 120%;
+    }
+    .left1{
+        display: flex;
+    }
+    .m-left{
+        display: flex;
+        flex-direction: column; 
+        margin: 5px;
+    }
+    .select{
+        width: 50%; 
+    }
+    .main3{
+           background-color:aqua;
+           display: flex;
+           height: 120px;
+           color: blue;
+           margin-left: 20%;
+        }
+  .m-right{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .pra{
+        color: blue;
+        text-align: justify;
+        padding-left: 15px;
+    }
+    .main4{
+        display: flex;
+        justify-content: center;
+    }
+    .but
+    {
+        color: red;
+        background-color:rgb(15, 124, 160);
+        margin: 10px;
+        padding: 10px;
+        color: white;
+        border: none;
+    }
+    
+</style>
+<body>
+    <div class="re1"><h1>Individual Ragistration</h1></div>
+        <div class="main">
+            <h2>User Particular</h2>
+            <div class="main1">
+                <div class="left">
+                    <label for="name">*<span>Login Id</span></label>
+                    <label for="name">*<span>Passwored</span></label>
+                    <label for="name">*<span>Confirm Passwored</span></label>
+                </div>
+                <div class="left">
+                   <input type="text" name="lg" id="lg">
+                   <input type="text" name="pa" id="pa">
+                   <input type="text" name="con" id="con">
+               </div>
+           </div>
+              <h2>Personal Particulars</h2>
+            <div class="main2">
+                <div class="left1">
+                   <div class="m-left">
+                        <label for="name">*<span>Salutation</span></label>
+                        <label for="name">*<span>Middle Name</span></label>
+                        <label for="name">*<span>Resident Status</span></label>
+                        <label for="name">*<span>Email Id</span></label>
+                    </div>
+                    <div class="m-left">
+                        <select class="select">
+                            <option value="select">select</option>
+                       </select>
+                             <input type="text" name="mn" id="mn">
+                         <select class="select">
+                            <option value="select">select</option>
+                         </select>
+                            <input type="text" name="em" id="em">
+                    </div>
+                </div>    
+                <div class="main3">
+                    <div class="m-right">
+                        <label for="name">*<span>First Name </span></label>
+                        <label for="name">*<span>Last Name</span></label>
+                        <label for="name">*<span>Country</span></label>
+                        <label for="name">*<span>Mobile Number</span></label>
+                    </div>
+                    <div class="m-right">
+                        <input type="text" name="fn" id="fn">
+                        <input type="text" name="ln" id="ln">
+                        <select class="select">
+                            <option value="select">select</option>
+                        </select>
+                        <input type="text" name="mn" id="mn">
+                    </div>
+                </div>
+            </div>
+                  <h2>Accounts Particulars</h2>
+            <div class="main2">
+                <div class="m-left">
+                    <label for="name">*<span>15 digit Accounts no</span></label>
+                    <label for="name">*Fund Transfer</label>
+                </div>
+                <div class="m-left">
+                    <input type="text" name="acc" id="acc">
+                    <select class="select">
+                        <option value="select">select</option>
+                    </select>
+                </div>
+                <div class="main3">
+                    <div class="m-right">
+                        <label for="name">Nick Name</label>
+                    </div>
+                    <div class="m-right">
+                        <input type="text" name="nm" id="nm">
+                    </div>
+                </div>
+            </div>
+            <h2>DECLARATION</h2>
+        <div class="pra">
+                <P>I have read,understood and hereby agree to the Terms and Conditions in respect of all products and channels.</P><P>I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches.I confirm that all acounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively.i do hereby declare that information furnished in this form is true to the best of my knowledge and belief.</p>
+            </P>
+        </div>   
+            <div class="main4">
+                <button class="but">Submit</button>
+                <button class="but">Reset</button>
+            </div>      
+    </div>
+            
+</body>
+</html>

@@ -1,0 +1,106 @@
+Question-9:- Create simple three pages using External CSS, Internal CSS, and Inline 
+CSS. 
+
+External CSS (index_external.html)
+HTML (index_external.html):
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>External CSS Example</title>
+    <link rel="stylesheet" href="styles_external.css">
+</head>
+<body>
+    <h1>Welcome to External CSS Page</h1>
+    <p>This page uses external CSS for styling.</p>
+    <div class="styled-box">
+        <p>This box is styled using external CSS.</p>
+    </div>
+</body>
+</html>
+
+
+CSS (styles_external.css):
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.styled-box {
+    background-color: #e9e9e9;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+Internal CSS (index_internal.html)
+
+HTML (index_internal.html):
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff6347;
+        }
+
+        .styled-box {
+            background-color: #f0f8ff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Internal CSS Page</h1>
+    <p>This page uses internal CSS for styling.</p>
+    <div class="styled-box">
+        <p>This box is styled using internal CSS.</p>
+    </div>
+</body>
+</html>
+
+Inline CSS (index_inline.html)
+
+HTML (index_inline.html):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline CSS Example</title>
+</head>
+<body>
+    <h1 style="font-family: 'Courier New', Courier, monospace; color: #32cd32;">Welcome to Inline CSS Page</h1>
+    <p style="font-style: italic;">This page uses inline CSS for styling.</p>
+    <div style="background-color: #ffe4e1; padding: 20px; margin: 20px auto; width: 50%; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
+        <p>This box is styled using inline CSS.</p>
+    </div>
+</body>
+</html>
+
+Each of these HTML files represents a different method of applying CSS styles. The first one uses an external stylesheet linked via <link> tag, the second one has styles embedded within <style> tags in the <head>, and the third one applies styles directly to HTML elements using the style attribute.

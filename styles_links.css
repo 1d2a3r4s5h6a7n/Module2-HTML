@@ -1,0 +1,27 @@
+/* Styling regular link */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+a:hover {
+    color: #0056b3;
+}
+
+/* Visited link style */
+a:visited {
+    color: #800080;
+}
+
+/* Active link style */
+a:active {
+    color: #ff6347;
+}
+
+/* Focus style */
+a:focus {
+    outline: none;
+    border-bottom: 2px solid #ffcc00;
+}

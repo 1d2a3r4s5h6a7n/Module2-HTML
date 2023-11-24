@@ -1,0 +1,23 @@
+Question 8:- In how many ways can a CSS be integrated as a web page? 
+    
+    
+    External CSS: Linking an external CSS file to your HTML document using the <link> tag in the <head> section of your HTML file. This method allows you to keep your styles separate from your HTML, making it easier to manage and reuse styles across multiple pages.
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    Internal CSS: You can also embed CSS styles directly into your HTML file using the <style> tag within the head section. This method is useful for small styling changes that are specific to a single HTML document.
+    
+    <head>
+        <style>
+            /* Your CSS styles go here */
+        </style>
+    </head>
+
+    Inline CSS: Applying styles directly to HTML elements using the style attribute. This method is more specific and is used for styling individual elements. It's not recommended for large-scale styling due to its lack of maintainability.
+    
+  
+    <div style="color: blue; font-size: 16px;">This is a div with inline styles</div>
+
+    Each method has its advantages and use cases, but using an external CSS file is generally preferred for better organization, maintainability, and ease of making global style changes across multiple pages.

@@ -1,0 +1,12 @@
+/* Basic box styling */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.box:hover {
+    background-color: #00ff59;
+}
